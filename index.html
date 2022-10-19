@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Shortly - URL shortening API</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="header_left">
+        <img src="./images/logo.svg" alt="logo" class="logo" />
+        <ul class="header_list">
+          <li class="header_list--item">Features</li>
+          <li class="header_list--item">Pricing</li>
+          <li class="header_list--item">Resources</li>
+        </ul>
+      </div>
+      <ul class="header_list">
+        <li class="header_list--item">Login</li>
+        <li class="header_list--item"><button id="singUp">Sign Up</button></li>
+      </ul>
+      <img src="./images/menu.png" alt="menu" class="menu" id="menu" />
+    </header>
+    <div class="mobile_menu-wrap">
+      <div class="mobile_menu">
+        <ul class="header_list_mobile">
+          <li class="header_list--mobile">Features</li>
+          <li class="header_list--mobile">Pricing</li>
+          <li class="header_list--mobile">Resources</li>
+        </ul>
+        <ul class="header_list_mobile bottom">
+          <li class="header_list--mobile">Login</li>
+          <li class="header_list--mobile">
+            <button class="sing_up-mobile">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <main>
+      <!--  -->
+      <section id="section--1">
+        <div class="section--1_left_wrap">
+          <h1 class="section--1_heading">More than just shorter links</h1>
+
+          <p class="section--1_para">
+            Build your brand’s recognition and get detailed insights on how your
+            links are performing.
+          </p>
+
+          <button class="section--1_btn btn">Get Started</button>
+        </div>
+        <div class="section--1_right_wrap"></div>
+      </section>
+      <section id="section--2">
+        <div class="wrap_elements">
+          <div class="input_wrap">
+            <input
+              id="input"
+              type="text"
+              placeholder="Shorten a link here..."
+            />
+            <p class="input_error">Please enter a valid link</p>
+          </div>
+          <button id="shortenBtn">Shorten It!</button>
+        </div>
+      </section>
+      <div class="inputed_wrap"></div>
+      <section id="section--3">
+        <h3 class="section--3_heading">Advanced Statistics</h3>
+        <!--  -->
+        <p class="section--3_para">
+          Track how your links are performing across the web with our advanced
+          statistics dashboard.
+        </p>
+
+        <div class="section--3-elements">
+          <div class="section--3-background_border"></div>
+          <div class="section--3-element" id="element-1">
+            <img
+              src="./images/icon-fully-customizable.svg"
+              alt="icon-fully-customizable"
+              class="element_img"
+            />
+            <h3 class="element_heading">Brand Recognition</h3>
+            <p class="element_para">
+              Boost your brand recognition with each click. Generic links don’t
+              mean a thing. Branded links help instil confidence in your
+              content.
+            </p>
+          </div>
+          <div class="section--3-element" id="element-2">
+            <img
+              src="./images/icon-detailed-records.svg"
+              alt="icon-detailed-records"
+              class="element_img"
+            />
+            <h3 class="element_heading">Detailed Records</h3>
+            <p class="element_para">
+              Gain insights into who is clicking your links. Knowing when and
+              where people engage with your content helps inform better
+              decisions.
+            </p>
+          </div>
+          <div class="section--3-element" id="element-3">
+            <img
+              src="./images/icon-fully-customizable.svg"
+              alt="icon-fully-customizable"
+              class="element_img"
+            />
+            <h3 class="element_heading">Fully Customizable</h3>
+            <p class="element_para">
+              Improve brand awareness and content discoverability through
+              customizable links, supercharging audience engagement.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="section--4">
+        <h2 class="section--4_heading">Boost your links today!</h2>
+
+        <button class="section--4_btn btn">Get Started</button>
+      </section>
+    </main>
+    <footer>
+      <img src="./images/logo.svg" alt="logo" id="footerLogo" />
+      <span class="footer_list--item" id="item1">Features</span>
+      <span class="footer_list--item" id="item2">Resources</span>
+      <span class="footer_list--item" id="item3">Company</span>
+      <ul class="footer_list_social">
+        <li class="footer_social--item">
+          <a href="https://www.facebook.com/" target="_blank">
+            <img src="./images/icon-facebook.svg" alt="" class="social_icon" />
+          </a>
+        </li>
+        <li class="footer_social--item">
+          <a href="https://www.twitter.com/">
+            <img src="./images/icon-twitter.svg" alt="" class="social_icon" />
+          </a>
+        </li>
+        <li class="footer_social--item">
+          <a href="https://www.pinterest.com/">
+            <img src="./images/icon-pinterest.svg" alt="" class="social_icon" />
+          </a>
+        </li>
+        <li class="footer_social--item">
+          <a href="https://www.instagram.com/">
+            <img src="./images/icon-instagram.svg" alt="" class="social_icon" />
+          </a>
+        </li>
+      </ul>
+      <ul class="features list">
+        <li class="list-item">Link Shortening</li>
+        <li class="list-item">Branded Links</li>
+        <li class="list-item">Analytics</li>
+      </ul>
+
+      <ul class="resources list">
+        <li class="list-item">Blog</li>
+        <li class="list-item">Developers</li>
+        <li class="list-item">Support</li>
+      </ul>
+
+      <ul class="company list">
+        <li class="list-item">About</li>
+        <li class="list-item">Our Team</li>
+        <li class="list-item">Careers</li>
+        <li class="list-item">Contact</li>
+      </ul>
+    </footer>
+  </body>
+</html>
